@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body{
+  /* background: #fff; */
+  font-family: 'PT Sans', sans-serif;
+  background-color: #0093E9;
+  background-image: url("./images/Fondo.jpg");
+}
+
+h2{
+  padding-top: 0.5rem;
+}
+
+a{
+  color: #333;
+}
+
+a:hover{
+  color: #a0303d;
+  text-decoration: none;
+}
+
+.card{
+  background-color: transparent;
+  top: 10%;
+}
+
+.form-control{
+  background-color: #f8f9fa;
+  padding: 20px;
+  padding: 15px 5px;
+  margin-bottom: 1.3rem;
+}
+
+.form-control:focus {
+    color: #000000;
+    background-color: #f3e4e4;
+    border: 3px solid #d58a10;
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.btn{
+  padding: 0.6rem 1.2rem;
+  background: #c57805;
+  border: 2px solid #c57805;
+}
+
+.btn-primary:hover {
+    background-color: #d85b0d;
+    border-color: #df8c96;
+  transition: .3s;
+
+}
