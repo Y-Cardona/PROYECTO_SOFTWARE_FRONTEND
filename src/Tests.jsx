@@ -157,14 +157,10 @@ const Tests = () => {
       const { top, left } = goalPosition;
      
       console.log(
-        positionTop === `${top + 10.5}px` || positionTop === `${top - 10.5}px`
+        //positionTop === `${top + 10.5}px` || positionTop === `${top - 10.5}px`
+        positionTop.toString
       );
-      console.log(
-        positionTop + "Posicion top"
-      );
-      console.log(
-        top + "top"
-      );
+      
       if (
         positionTop === `${top + 10.5}px` ||
         (positionTop === `${top - 10.5}px` &&
