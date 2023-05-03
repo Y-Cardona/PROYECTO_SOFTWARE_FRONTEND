@@ -53,7 +53,7 @@ const Tests = () => {
 
       switch (e.target.name) {
         case "arriba":
-          if (`${parseInt(style.top) + modifier}` >= 214.5) {
+          if (`${parseInt(style.top) + modifier}` >= 160) {
             style.top = `${parseInt(style.top) - modifier}px`;
           } else {
             setAlert({
@@ -76,7 +76,7 @@ const Tests = () => {
           }
           break;
         case "izquierda":
-          if (`${parseInt(style.left) + modifierSide}` >= 317) {
+          if (`${parseInt(style.left) + modifierSide}` >= 340) {
             style.left = `${parseInt(style.left) - modifierSide}px`;
           } else {
             //alert("Te saliste");
@@ -89,7 +89,7 @@ const Tests = () => {
 
           break;
         case "derecha":
-          if (`${parseInt(style.left) + modifierSide}` <= 497) {
+          if (`${parseInt(style.left) + modifierSide}` <= 640) {
             style.left = `${parseInt(style.left) + modifierSide}px`;
           } else {
             //alert("Te saliste");
