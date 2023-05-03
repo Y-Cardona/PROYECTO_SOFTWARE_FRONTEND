@@ -159,6 +159,12 @@ const Tests = () => {
       console.log(
         positionTop === `${top + 10.5}px` || positionTop === `${top - 10.5}px`
       );
+      console.log(
+        positionTop + "Posicion top"
+      );
+      console.log(
+        top + "top"
+      );
       if (
         positionTop === `${top + 10.5}px` ||
         (positionTop === `${top - 10.5}px` &&
