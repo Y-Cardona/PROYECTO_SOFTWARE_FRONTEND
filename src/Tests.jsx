@@ -160,17 +160,19 @@ const Tests = () => {
         positionTop === `${top + 10.5}px` || positionTop === `${top - 10.5}px`
       );
       console.log(
+        positionTop +
         positionLeft
       );
       console.log(
+        top +
         left
       );
       
       if (
         positionTop === `${top + 3}px` ||
         (positionTop === `${top - 3}px` &&
-          positionLeft === `${left + 30}px`) ||
-        positionLeft === `${left - 30}px`
+          positionLeft === `${left }px`) ||
+        positionLeft === `${left }px`
       ) {
         revealBlock();
         registerTestResult({
