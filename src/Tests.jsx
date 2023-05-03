@@ -177,7 +177,7 @@ const Tests = () => {
         revealBlock();
         registerTestResult({
           idPregunta: currentTest,
-          idEstudiante: codigo,
+          idParticipante: codigo,
           valoracion: 1,
         })
           .then(function (response) {
@@ -201,7 +201,7 @@ const Tests = () => {
         revealBlock();
         registerTestResult({
           idPregunta: currentTest,
-          idEstudiante: codigo,
+          idParticipante: codigo,
           valoracion: 0,
         })
           .then(function (response) {
