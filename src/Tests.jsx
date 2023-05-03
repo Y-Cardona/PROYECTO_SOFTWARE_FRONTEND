@@ -160,7 +160,7 @@ const Tests = () => {
         positionTop === `${top + 1.5}px` || positionTop === `${top - 1.5}px`
       );
       if (
-        positionTop === `${top + 10.5}px` ||
+        positionTop === `${top + 10}px` ||
         (positionTop === `${top - 10.5}px` &&
           positionLeft === `${left + 30}px`) ||
         positionLeft === `${left - 30}px`
