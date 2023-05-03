@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import getStudents from "./api/endpoints/getStudents";
-import getStudentTest from "./api/endpoints/getStudentTest";
+import getStudents from "./api/endpoints/getParticipantes";
+import getStudentTest from "./api/endpoints/getParticipanteTest";
 import getCorrectIncorrectTest from "./api/endpoints/getCorrectIncorrectTest";
 import getTestAverage from "./api/endpoints/getTestAverage";
 import registertestRating from "./api/endpoints/registertestRating";
