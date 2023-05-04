@@ -188,11 +188,11 @@ const Tests = () => {
                 message: "Llegaste al Dragón.",
               });
             } else {
-              setAlert({
-                show: true,
-                title: "OH",
-                message: "No se pudo registrar la respuesta",
-              });
+              //setAlert({
+                //show: true,
+                //title: "OH",
+                //message: "No se pudo registrar la respuesta",
+            //  });
             }
           })
           .catch(function (error) {
